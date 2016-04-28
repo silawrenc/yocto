@@ -1,0 +1,27 @@
+{
+    "name": "silawrenc/yocto",
+    "type": "library",
+    "description": "A really, really, really, really, really, really, really, really small php framework",
+    "keywords": ["framework", "micro-framework", "stack"],
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Simon Lawrence",
+            "email": "silawrenc@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "silawrenc\\Yocto\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=5.5"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    }
+}
